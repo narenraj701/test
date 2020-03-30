@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3caf040e-64f2-4f3c-ab7f-03acb4471dd0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zpvvfa4MQu6wH0YSL2VrdfTqGc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/demo" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.AnnotationsMain" />
+      <module name="SpringAnnotationDemo" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3caf040e-64f2-4f3c-ab7f-03acb4471dd0" name="Default Changelist" comment="" />
+      <created>1585549081373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585549081373</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585564620682">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1585564620682" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585564800008">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585564800008" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1585564687466">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585564687466" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1585564687464">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585564687464" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1585564687463">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585564687463" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1585564687465">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585564687465" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1585550875314">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1585550875314" />
+  </component>
+</project>

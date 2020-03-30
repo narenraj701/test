@@ -7,15 +7,20 @@ import java.awt.*;
 
 @Component
 public class CricketCoach implements Coach {
+    @Autowired
     private FortuneService fortuneService;
     @Override
     public String getWorkout() {
         return "Do bowling practice";
     }
-    @Autowired
+    /*@Autowired
     public CricketCoach(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
-    }
+    }*/
+    /*@Autowired
+    public void setFortuneService(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
+    }*/
 
     @Override
     public String getFortune() {

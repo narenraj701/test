@@ -12,5 +12,6 @@ public class AnnotationsMain {
         coach=context.getBean("cricketCoach",Coach.class);
         System.out.println(coach.getWorkout());
         System.out.println(coach.getFortune());
+        context.close();
     }
 }

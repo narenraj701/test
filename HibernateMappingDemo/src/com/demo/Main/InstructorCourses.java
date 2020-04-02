@@ -9,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.List;
 
-public class MainBidirectional {
+public class InstructorCourses {
     public static void main(String[] args) {
         SessionFactory factory=new Configuration()
                 .configure("hibernate.cfg.xml")
@@ -21,7 +21,8 @@ public class MainBidirectional {
         try{
             session.beginTransaction();
             Instructor instructor=session.get(Instructor.class,3);
-            session.delete(instructor);
+            List<Course> courses=instructor.getCourses();
+            System.out.println(courses);
             session.getTransaction().commit();
 
         }

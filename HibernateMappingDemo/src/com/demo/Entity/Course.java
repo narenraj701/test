@@ -11,16 +11,13 @@ public class Course {
     private int id;
     @Column(name="title")
     private String title;
-    @Column(name="instructor_id")
-    private int instructor_id;
     @ManyToOne(cascade={CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
-    @JoinColumn(name="instructor_id")
+    @JoinColumn(name="instructor_id",nullable = true)
     private Instructor instructor;
     public Course(){}
 
-    public Course(String title, int instructor_id) {
+    public Course(String title) {
         this.title = title;
-        this.instructor_id = instructor_id;
     }
 
     public int getId() {
@@ -37,14 +34,6 @@ public class Course {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public int getInstructor_id() {
-        return instructor_id;
-    }
-
-    public void setInstructor_id(int instructor_id) {
-        this.instructor_id = instructor_id;
     }
 
     public Instructor getInstructor() {

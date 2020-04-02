@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KYC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.CRUD.KYC" />
+    <configuration name="InstructorCourses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Main.InstructorCourses" />
       <module name="HibernateDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.CRUD.*" />
+          <option name="PATTERN" value="com.demo.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainBidirectional" />
+        <item itemvalue="Application.InstructorCourses" />
         <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.KYC" />
       </list>
     </recent_temporary>
   </component>
@@ -142,42 +142,42 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1585807454368" />
-    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585827304320">
+    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585834953941">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585827304320" />
-    <state width="1253" height="138" key="GridCell.Tab.0.bottom" timestamp="1585826969446">
+    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585834953941" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1585834838886">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="138" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585826969446" />
-    <state width="1253" height="138" key="GridCell.Tab.0.center" timestamp="1585826969445">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585834838886" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1585834838886">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="138" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585826969445" />
-    <state width="1253" height="138" key="GridCell.Tab.0.left" timestamp="1585826969445">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585834838886" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1585834838886">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="138" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585826969445" />
-    <state width="1253" height="138" key="GridCell.Tab.0.right" timestamp="1585826969445">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585834838886" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1585834838886">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="138" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585826969445" />
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1585743326871">
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585834838886" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1585834267183">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585743326871" />
-    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1585743326871">
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585834267183" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1585834267182">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1585743326871" />
-    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1585743326871">
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1585834267182" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1585834267182">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1585743326871" />
-    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1585743326871">
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1585834267182" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1585834267182">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1585743326871" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1585834267182" />
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1585812552446">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -189,7 +189,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/demo/CRUD/KYC.java</url>
           <line>23</line>
-          <properties class="com.demo.CRUD.KYC" method="main">
+          <properties class="com.demo.CRUD.KYC">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />

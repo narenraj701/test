@@ -28,6 +28,7 @@
 
         <input type="text" th:field="*{firstName}"
                class="form-control mb-4 col-4" placeholder="enter first name">
+        <p style="color:red" th:if="${#fields.hasErrors('firstName')}" th errors="*{firstName}">First Name cannot be null</p>
 
         <input type="text" th:field="*{lastName}"
                class="form-control mb-4 col-4" placeholder="enter last name">

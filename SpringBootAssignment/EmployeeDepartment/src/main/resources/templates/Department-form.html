@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <!-- Required meta tags -->
@@ -26,6 +26,7 @@
 
         <input type="text" th:field="*{depName}"
                class="form-control mb-4 col-4" placeholder="enter first name">
+        <p style="color:red" th:if="${#fields.hasErrors('depName')}" th errors="*{depName}">Please Enter Department Name with minimum size of 2</p>
 
         <button type="submit" class="btn btn-info col-2">Save</button>
 

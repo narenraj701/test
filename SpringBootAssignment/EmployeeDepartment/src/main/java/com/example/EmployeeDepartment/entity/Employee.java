@@ -1,11 +1,19 @@
 package com.example.EmployeeDepartment.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.context.annotation.EnableMBeanExport;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 @Table(name = "employees")
 public class Employee {
 
@@ -14,6 +22,8 @@ public class Employee {
     @Column(name = "id")
     private int id;
 
+    @NotNull
+    @Size(min=2, max=30)
     @Column(name = "first_name")
     private String firstName;
 
@@ -23,9 +33,6 @@ public class Employee {
     @ManyToOne(cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
     @JoinColumn(name="dep_id")
     private Department department;
-
-    public Employee() {
-    }
 
     public Employee(String firstName, String lastName, Department department) {
         this.firstName = firstName;
@@ -38,37 +45,6 @@ public class Employee {
         this.firstName=firstName;
         this.lastName=lastName;
         this.department=department;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public Department getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(Department department) {
-        this.department = department;
     }
 
     @Override
